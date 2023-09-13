@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hal22036/cse-341-project/issues"
   },
-  "homepage": "https://github.com/hal22036/cse-341-project#readme"
+  "homepage": "https://github.com/hal22036/cse-341-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
