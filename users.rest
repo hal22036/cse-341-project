@@ -1,1 +1,1 @@
-GET https://cse-341-project-95s5.onrender.com/users
+GET https://cse-341-project-95s5.onrender.com/contacts
