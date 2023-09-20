@@ -1,1 +1,35 @@
-GET https://cse-341-project-95s5.onrender.com
+//LOCALHOST
+### Get all contacts
+GET http://localhost:3000/contacts
+
+### Get contact by id
+GET http://localhost:8080/contacts/6502531b7487a17f7bcf143b
+
+### Create contact
+POST http:://localhost:3000/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Weaver",
+    "email": "aweaver@test.com",
+    "favoriteColor": "Brown",
+    "birthday": "06/19/2000"
+}
+
+### PUT contact
+PUT http://localhost:3000/contacts/6502531b7487a17f7bcf143b HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Sarah",
+    "lastName": "Birch",
+    "email": "test@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "12/12/20"
+}
+
+### DELETE contact
+DELETE http://localhost:3000/contacts/6502531b7487a17f7bcf143b HTTP/1.1
+
+
